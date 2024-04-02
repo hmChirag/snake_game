@@ -16,7 +16,6 @@ public class Snake extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     public static void main(String[] args) {
-        
         EventQueue.invokeLater(() -> {
             JFrame ex = new Snake();
             ex.setVisible(true);
